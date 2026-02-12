@@ -35,30 +35,30 @@ Save:
 ## Installation
 Create a virtual environment:
 
-python3 -m venv .venv
+`python3 -m venv .venv
 source .venv/bin/activate
-
+`
 If dependencies are missing:
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 ## Model Training
 
-python3 src/train.py
+`python3 src/train.py`
 
 ### Output Structure
 
-out/
+`out/
 └── {N}_bags/
     ├── image_timestamp.jpg
     ├── image_timestamp.json
     └── yolo_pred/
-        └── image_timestamp_yolo.png
+        └── image_timestamp_yolo.png`
 
 
 ### JSON Output example
 
-{
+`{
   "image": "photo/images/val/5bags_real.jpg",
   "timestamp": "2026-02-12T10:21:00",
   "num_bags": 5,
@@ -72,7 +72,7 @@ out/
       }
     }
   ]
-}
+}`
 
 
 ### Demo

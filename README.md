@@ -79,10 +79,32 @@ out/
 }
 ```
 
+## Run Inference
 
-### Demo
+### Option 1: Run with Docker
+```
+docker run --rm \
+  -v $(pwd):/app \
+  produce \
+  photo/images/val/bag97.png
+```
+### Option 2: Run Locally
+
+```
+python3 src/produce/produce.py photo/images/val/5bags_real.jpg
+```
+
+## Demo
 Custom Annotation Output
+<img width="1077" height="841" alt="image" src="https://github.com/user-attachments/assets/068c3ff1-f721-4c6b-b4b7-ecb407238e52" />
 
 Raw YOLO Prediction
+<img width="1080" height="838" alt="image" src="https://github.com/user-attachments/assets/381e9858-f70b-465d-bb42-296ce80760c0" />
+
+Final Result with 1 image
+<img width="782" height="760" alt="image" src="https://github.com/user-attachments/assets/6b011548-def6-4b8e-9206-c3e3d6e86ff7" />
 
 
+## ⚠️ Limitations
+The model was trained on a relatively small dataset composed mainly of AI-generated images.
+While the pipeline is functionally complete, real-world performance may vary and results are not yet production-grade.

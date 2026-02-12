@@ -1,0 +1,31 @@
+{
+  "image": "photo/images/val/bag30.png",
+  "timestamp": "2026-01-29T18:33:04.870464",
+  "num_bags": 3,
+  "bags": [
+    {
+      "id": 1,
+      "angle_deg": 4.92,
+      "center": {
+        "x": 107,
+        "y": 63
+      }
+    },
+    {
+      "id": 2,
+      "angle_deg": 12.46,
+      "center": {
+        "x": 166,
+        "y": 65
+      }
+    },
+    {
+      "id": 3,
+      "angle_deg": -5.25,
+      "center": {
+        "x": 50,
+        "y": 62
+      }
+    }
+  ]
+}

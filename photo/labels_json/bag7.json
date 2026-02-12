@@ -1,0 +1,101 @@
+{
+  "version": "3.3.5",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "bag",
+      "score": null,
+      "points": [
+        [
+          22.941460794844257,
+          22.440923737916222
+        ],
+        [
+          76.32491944146079,
+          27.167024704618694
+        ],
+        [
+          74.92857142857143,
+          110.94790547798067
+        ],
+        [
+          7.796455424274978,
+          111.91460794844254
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "bag",
+      "score": null,
+      "points": [
+        [
+          75.68045112781955,
+          21.151987110633733
+        ],
+        [
+          129.60096670247046,
+          23.62244897959184
+        ],
+        [
+          136.5827067669173,
+          114.81471535982814
+        ],
+        [
+          76.75456498388829,
+          112.55907626208378
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    },
+    {
+      "label": "bag",
+      "score": null,
+      "points": [
+        [
+          130.6750805585392,
+          24.15950590762621
+        ],
+        [
+          187.81793770139635,
+          25.555853920515577
+        ],
+        [
+          198.77389903329754,
+          112.34425349087003
+        ],
+        [
+          135.7234156820623,
+          111.27013963480128
+        ],
+        [
+          130.46025778732547,
+          25.233619763694957
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "difficult": false,
+      "shape_type": "polygon",
+      "flags": {},
+      "attributes": {},
+      "kie_linking": []
+    }
+  ],
+  "imagePath": "bag7.png",
+  "imageData": null,
+  "imageHeight": 135,
+  "imageWidth": 207
+}
